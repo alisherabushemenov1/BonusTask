@@ -62,3 +62,5 @@ Therefore, space complexity = O(m).
 
 ## Conclusion
 The Knuth–Morris–Pratt algorithm was successfully implemented and tested in Java. Results confirmed that KMP performs efficiently across short, medium, and long strings. Its ability to avoid redundant comparisons makes it ideal for real-world applications involving large texts such as document searching or DNA sequence analysis.
+
+The project demonstrates a clear understanding of string processing efficiency and highlights the importance of preprocessing in optimizing algorithmic performance.
