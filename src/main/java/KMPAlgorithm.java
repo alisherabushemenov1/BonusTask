@@ -1,13 +1,5 @@
 public class KMPAlgorithm {
 
-    /**
-     * Computes the Longest Prefix Suffix (LPS) array used by KMP algorithm.
-     * LPS[i] stores the length of the longest proper prefix which is also a suffix for the substring pattern[0..i].
-     * This preprocessing helps to avoid unnecessary comparisons while matching.
-     *
-     * @param pattern the pattern string
-     * @return the LPS array
-     */
     public static int[] computeLPSArray(String pattern) {
         int m = pattern.length();
         int[] lps = new int[m];
@@ -96,3 +88,4 @@ public class KMPAlgorithm {
         KMPSearch(text3, pattern3);
     }
 }
+
